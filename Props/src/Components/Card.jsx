@@ -1,5 +1,5 @@
 
-//styles yeha se suru hota hai 
+//styles yeha se suru hota hai     //yeha per prpos hota hai 
 function Card  ({name,bio})  {
   return (
     <div className=" bg-sky-200 p-3 rounded-2xl shadow-xl shadow-amber-200 m-2 cursor:pointer transition-all duration-300 hover:rotate-3">

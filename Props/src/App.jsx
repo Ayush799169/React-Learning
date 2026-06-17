@@ -12,3 +12,6 @@ function App () {
 }
 
 export default App
+
+
+//prpos data is shear ke liye used karte hai  api call nhi bol sakte hai  // card islie likha kyoki card name k acompnets baya tha 
