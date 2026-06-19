@@ -1,6 +1,6 @@
 import { useState } from "react"
-
-/*  //valu change
+/*
+ //valu change
 function App (){
  const [a,setA] = useState(20)
  function changeA(){
@@ -39,7 +39,7 @@ function App() {
     </div>
   )
 }
-*/
+
 //input
 
 function App () {
@@ -71,7 +71,22 @@ function App (){
     </div>
   )
 }*/
-export default App
+
+// secreen chnagess hota hai and data store karta hai
+function Counter () {
+  const [count, setCount] = useState(0)
+
+
+  return (
+    <div>
+      <h1>{count}</h1>
+      <button onClick={() => setCount(count + 1)}>
+        Add
+      </button>
+    </div>
+  )
+}
+export default Counter
 
 
 

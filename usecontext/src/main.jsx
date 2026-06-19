@@ -5,6 +5,6 @@ import UserProvider from "./context/UserProvider.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <UserProvider>
-    <App />   //children hai
+    <App />   
   </UserProvider>
 );

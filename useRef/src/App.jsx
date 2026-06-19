@@ -1,4 +1,5 @@
-import { useRef ,useEffect, useState} from "react";
+//import { useRef ,useEffect, useState} from "react";
+import { useRef } from 'react'
 /*
 function App() {
   const inputRef = useRef(null);
@@ -34,7 +35,7 @@ function App() {
     </div>
   );
 }
-  */
+  
 
 
 function App() {
@@ -53,5 +54,22 @@ function App() {
     </div>
   );
 }
+*/
 
+
+
+
+//memory work //input focus ND DIRECT accss ho ta hai dom se 
+function App() {
+  const inputRef = useRef(null)
+
+  return (
+    <div>
+      <input ref={inputRef} />
+      <button onClick={() => inputRef.current.focus()}>
+        Focus karo
+      </button>
+    </div>
+  )
+}
 export default App;
